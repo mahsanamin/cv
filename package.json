@@ -1,0 +1,45 @@
+{
+  "name": "muhammad-ahsan-amin-cv",
+  "version": "1.0.0",
+  "description": "Professional CV of Muhammad Ahsan Amin - VP of R&D & AI Coach",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 9090",
+    "generate-pdf": "node generate-pdf.js",
+    "docker:build": "docker build -t ahsan-cv .",
+    "docker:run": "docker run -p 9090:9090 ahsan-cv",
+    "docker:compose": "docker compose up -d",
+    "docker:stop": "docker compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahsanamin/cv.git"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "professional",
+    "engineering-leader",
+    "ai-coach",
+    "vp-rd",
+    "docker",
+    "github-pages",
+    "responsive"
+  ],
+  "author": {
+    "name": "Muhammad Ahsan Amin",
+    "email": "mahsanamin@gmail.com",
+    "url": "https://mahsanamin.github.io/cv"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.6.1"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  }
+}

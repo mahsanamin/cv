@@ -1,0 +1,15 @@
+# IDE
+.idea
+.vscode
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+## Claude
+settings.local.json
