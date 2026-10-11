@@ -1,26 +1,9 @@
-# Muhammad Ahsan Amin – CV
+# Muhammad Ahsan Amin – CV (moved)
 
-Live resume, Docker-first tooling, and a synced PDF export.
+My CV now lives at **https://mahsanamin.com/cv/**, with a PDF download on the page.
 
-## Quick Links
-- Website: https://mahsanamin.github.io/cv
-- PDF: https://mahsanamin.github.io/cv/Muhammad-Ahsan-Amin-CV.pdf
-
-## Run Locally (Docker only)
-```bash
-git clone https://github.com/mahsanamin/cv.git
-cd cv
-
-docker compose up -d          # serve at http://localhost:9090
-docker compose run --rm cv-website npm run generate-pdf
-docker compose down
-```
-
-## Follow This Style
-Want the same look and workflow? Follow the step-by-step guide in [`docs/style-guide.md`](docs/style-guide.md).
-
-## More Docs
-- Developer workflow: [`docs/development.md`](docs/development.md)
-- Privacy policy: [`PRIVACY.md`](PRIVACY.md)
-
-Licensed under the MIT License.
+This repository only keeps the old address working: anything under
+`mahsanamin.github.io/cv` redirects to the new page, and the old PDF link
+redirects to the new PDF. The CV's source is in
+[mahsanamin/mahsanamin-website](https://github.com/mahsanamin/mahsanamin-website)
+under `mainsite/cv/`.
